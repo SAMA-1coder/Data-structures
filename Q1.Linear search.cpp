@@ -21,5 +21,5 @@ int main()
         }
     }
     if(!p)
-    cout<<"element not found in array: ";
+    cout<<"elementÂ notÂ found in array: ";
 }
