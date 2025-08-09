@@ -6,7 +6,7 @@ int main()
     int n,j;
     cout<<"Enter the size of array: ";
     cin>>n;
-   int arr[n],m,o;
+   int arr[n];
    cout<<"Enter the elements of array: ";
    for(int i=0;i<n;i++){
        cin>>arr[i];
@@ -23,5 +23,6 @@ int main()
         cout << arr[i] << " ";
     return 0;
 }
+
 
 
