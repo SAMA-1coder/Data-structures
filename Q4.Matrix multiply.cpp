@@ -18,11 +18,12 @@ int main() {
     for (int i = 0; i < m; i++)
         for (int j = 0; j < n; j++)
             cin >> A[i][j];
-         cout<<"First matrix";
+         cout<<"First matrix"<<endl;
 		    for (int i = 0; i < m; i++) {
         for (int j = 0; j < n; j++) {
             cout << A[i][j] << " ";
         }
+        cout<<endl<<" ";
 }
     // Input second matrix elements
     cout << "Enter elements of second matrix:\n";
@@ -30,11 +31,12 @@ int main() {
         for (int j = 0; j < p; j++)
             cin >> B[i][j];
 
-   cout<<"Second matrix";
+   cout<<"Second matrix"<<endl;
 		    for (int i = 0; i < r; i++) {
         for (int j = 0; j < p; j++) {
-            cout << A[i][j] << " ";
+            cout << B[i][j] << " ";
         }
+        cout<<endl<<" ";
 }
 
     // Performing matrix multiplication
@@ -58,5 +60,4 @@ int main() {
 
     return 0;
 }
-
 
